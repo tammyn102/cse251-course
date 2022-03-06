@@ -50,16 +50,33 @@ Instructions:
 
 
 """
+from ast import While
 import time
 import threading
 
 
 PHILOSOPHERS = 5
 MAX_MEALS = PHILOSOPHERS * 5
+FORKS = []
 
+class philolosphers(lock):
+    def __init__(self):
+          While PHILOSOPHERS 
 
+          pass
+          #   else:
+          #       PHILOSOPHERS = time.sleep( 3 )
+                
+
+        
 def main():
     # TODO - create the forks
+    fork1= threading.Lock()
+    fork2= threading.Lock()
+    fork3= threading.Lock()
+    fork4= threading.Lock()
+    fork5= threading.Lock()
+
     # TODO - create PHILOSOPHERS philosophers
     # TODO - Start them eating and thinking
     # TODO - Display how many times each philosopher ate

@@ -27,6 +27,7 @@ Why would it work?
 
 """
 import math
+import os,sys
 import threading 
 from screen import Screen
 from maze import Maze
