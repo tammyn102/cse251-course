@@ -6,7 +6,7 @@ Author: Brother Comeau
 Instructions:
 - Look for the TODO comments
 """
-
+import mmap
 import time
 import threading
 
@@ -14,8 +14,10 @@ import threading
 def reverse_file(filename):
     """ Display a file in reverse order using a mmap file. """
     # TODO add code here
-    pass
-
+    with open(filename, mode="r", encoding="utf8") as file_obj:
+        with mmap.mmap(file_obj.fileno(), length=0, access=mmap.ACCESS_READ) as map_file:
+            for i in range(map_file.size()):
+                print(chr(map_file[map_file.size()-i-1]), end='')
 
 # -----------------------------------------------------------------------------
 def promote_letter_a(filename):
@@ -27,7 +29,14 @@ def promote_letter_a(filename):
     You are not creating a different file.  Change the file using mmap file.
     """
     # TODO add code here
-    pass
+    for line in filename:
+        if 'a' in line:
+           return filename
+    count = 'a'
+    with open(filename, mode="r", encoding="utf8") as file_obj:
+        for line in file_obj:
+            count.upper()
+    return count
 
 
 # -----------------------------------------------------------------------------
@@ -49,6 +58,7 @@ def promote_letter_a_threads(filename):
 def main():
     reverse_file('data.txt')
     promote_letter_a('letter_a.txt')
+    
     
     # TODO
     # When you get the function promote_letter_a() working

@@ -2,7 +2,7 @@
 Course: CSE 251
 Lesson Week: 10
 File: assignment.py
-Author: <your name>
+Author: Tammy Nolasco
 
 Purpose: assignment for week 10 - reader writer problem
 
@@ -48,18 +48,39 @@ Instructions:
 
 Add any comments for me:
 
-
-
 """
+from asyncio.subprocess import Process
 import random
 from multiprocessing.managers import SharedMemoryManager
 import multiprocessing as mp
+import time
 
 BUFFER_SIZE = 10
 READERS = 2
 WRITERS = 2
 
-def main():
+class ReaderWriter():
+    def __init__(self):
+        self.rd = mp.Pool.Semaphore()
+
+    def reader(self):
+          while True:
+            self.rd.acquire()  
+            if self.readCount == 1:
+                  self.wrt.acquire()
+                  print(f"Reader {self.readCount} is reading")
+                  self.rd.acquire() 
+            if self.readCount == 0:      
+               self.wrt.release()
+
+    def writer(self):
+          while True:
+                self.wrt.acquire()     
+                print("Wrting data.....")  
+                print("-"*20)
+                self.wrt.release()   
+                time.sleep(3)    
+def main(self):
 
     # This is the number of values that the writer will send to the reader
     items_to_send = random.randint(1000, 10000)
@@ -67,14 +88,24 @@ def main():
     smm = SharedMemoryManager()
     smm.start()
 
+    sl = smm.ShareableList(range(BUFFER_SIZE))
+
     # TODO - Create a ShareableList to be used between the processes
-
     # TODO - Create any lock(s) or semaphore(s) that you feel you need
-
     # TODO - create reader and writer processes
-
     # TODO - Start the processes and wait for them to finish
-
+    t1 = Process(target = self.reader) 
+    t1.start()
+    t2 = Process(target = self.writer) 
+    t2.start()
+    t3 = Process(target = self.reader) 
+    t3.start()
+    t4 = Process(target = self.reader) 
+    t4.start()
+    t6 = Process(target = self.writer) 
+    t6.start()
+    t5 = Process(target = self.reader) 
+    t5.start()
     print(f'{items_to_send} values sent')
 
     # TODO - Display the number of numbers/items received by the reader.
@@ -83,7 +114,7 @@ def main():
     # print(f'{<your variable>} values received')
 
     smm.shutdown()
-
+    total_result = sum(sl)
 
 if __name__ == '__main__':
     main()
