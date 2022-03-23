@@ -4,40 +4,23 @@ Lesson Week: 14
 File: assignment.py
 Author: <your name>
 Purpose: Assignment 13 - Family Search
-
 Instructions:
-
 Depth First Search
 https://www.youtube.com/watch?v=9RHO6jU--GU
-
 Breadth First Search
 https://www.youtube.com/watch?v=86g8jAQug04
-
-
 Requesting a family from the server:
 family = Request_thread(f'{TOP_API_URL}/family/{id}')
-
 Requesting an individual from the server:
 person = Request_thread(f'{TOP_API_URL}/person/{id}')
-
-
 You will lose 10% if you don't detail your part 1 
 and part 2 code below
-
 Describe how to speed up part 1
-
 <Add your comments here>
-
-
 Describe how to speed up part 2
-
 <Add your comments here>
-
-
 10% Bonus to speed up part 3
-
 <Add your comments here>
-
 """
 import time
 import threading
@@ -291,7 +274,6 @@ def depth_fs_pedigree(family_id, tree):
 
     """
     outline:
-
     request family information
     request Husband - add to tree (Note there might not a husband in the family)
     request wife - add to tree (Note there might not a wife in the family)
@@ -410,4 +392,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

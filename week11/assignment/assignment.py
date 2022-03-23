@@ -11,6 +11,9 @@ import multiprocessing as mp
 # number of cleaning staff and hotel guests
 CLEANING_STAFF = 2
 HOTEL_GUESTS = 5
+cleaned_count = 0
+party_count = 0
+
 
 # Run program for this number of seconds
 TIME = 60
@@ -49,8 +52,18 @@ def cleaner():
         Take some time cleaning (cleaner_cleaning())
         display message STOPPING_CLEANING_MESSAGE
     """
-    pass
+    thread_list = []
+    global time
 
+    if CLEANING_STAFF == cleaner_waiting():
+        return STARTING_PARTY_MESSAGE
+        for guest_partying(id) in party_count:
+            if guest_partying(TIME):
+                 thread_list.append(threading.Thread(target=cleaner(), args=(guest_partying,)))
+            else:
+                return cleaner_cleaning(id)
+    
+    
 # -----------------------------------------------------------------------------
 def guest():
     """
@@ -61,12 +74,24 @@ def guest():
         Take some time partying (guest_partying())
         display message STOPPING_PARTY_MESSAGE if the guest is the last one leaving in the room
     """
-    pass
+    if HOTEL_GUESTS == guest_waiting():
+        return STARTING_CLEANING_MESSAGE
+        for cleaner_cleaning(id) in cleaned_count:
+            if cleaner_cleaning(TIME):
+                 thread_list.append(threading.Thread(target=guest(), args=(cleaner_cleaning,)))
+            else:
+                return guest_partying(id)
 
 # -----------------------------------------------------------------------------
-def main():
+def main(thread_list):
     # TODO - add any variables, data structures, processes you need
     # TODO - add any arguments to cleaner() and guest() that you need
+
+    for thread in thread_list:
+        thread.start()
+    for thread in thread_list:
+        thread.join()
+
 
     # Start time of the running of the program. 
     start_time = time.time()
