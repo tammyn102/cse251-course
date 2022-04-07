@@ -1,0 +1,960 @@
+Current: active threads / max count: 1 / 1
+Request: /
+Sending: {"start_family_id": 5005112583}
+Current: active threads / max count: 1 / 1
+Request: /start/6
+Creating family tree with 6 generations...
+Number of people  : 329
+Number of families: 56
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /family/5005112583
+Sending: {"id": 5005112583, "husband_id": 5005112583, "wife_id": 5011004451, "children": []}
+Current: active threads / max count: 1 / 1
+Request: /person/5011004451
+Current: active threads / max count: 2 / 2
+Request: /person/5005112583
+Sending: {"id": 5011004451, "name": "Eleanor", "birth": "11-11-1988", "parent_id": 4882779631, "family_id": 5005112583}
+Sending: {"id": 5005112583, "name": "Benjamin", "birth": "26-7-1840", "parent_id": 5011004451, "family_id": 5005112583}
+Current: active threads / max count: 1 / 2
+Request: /end
+################################################################################
+Total number of people  : 329
+Total number of families: 56
+Number of generations   : 6
+Families were requested in this order:
+1
+Total number of API calls: 5
+Final thread count (max count): 2
+################################################################################
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 2
+Request: /start/6
+Creating family tree with 6 generations...
+Number of people  : 337
+Number of families: 54
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /end
+################################################################################
+Total number of people  : 337
+Total number of families: 54
+Number of generations   : 6
+Families were requested in this order:
+
+Total number of API calls: 2
+Final thread count (max count): 1
+################################################################################
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /start/6
+Creating family tree with 6 generations...
+Number of people  : 354
+Number of families: 56
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /end
+################################################################################
+Total number of people  : 354
+Total number of families: 56
+Number of generations   : 6
+Families were requested in this order:
+
+Total number of API calls: 2
+Final thread count (max count): 1
+################################################################################
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /
+Sending: {"start_family_id": 5005112583}
+Current: active threads / max count: 1 / 1
+Request: /start/6
+Creating family tree with 6 generations...
+Number of people  : 240
+Number of families: 39
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /family/5005112583
+Sending: {"id": 5005112583, "husband_id": 5005112583, "wife_id": 5011004451, "children": [5016889167, 5021732459, 5027631511, 4966414515]}
+Current: active threads / max count: 1 / 1
+Request: /person/5011004451
+Current: active threads / max count: 2 / 2
+Request: /person/5005112583
+Current: active threads / max count: 3 / 3
+Request: /person/5027631511
+Current: active threads / max count: 4 / 4
+Request: /person/5016889167
+Current: active threads / max count: 5 / 5
+Request: /person/5021732459
+Current: active threads / max count: 6 / 6
+Request: /person/4966414515
+Sending: {"id": 5011004451, "name": "Camila", "birth": "16-9-1792", "parent_id": 5033962979, "family_id": 5005112583}
+Sending: {"id": 5005112583, "name": "Mateo", "birth": "29-6-1755", "parent_id": 5011004451, "family_id": 5005112583}
+Sending: {"id": 5027631511, "name": "Jack", "birth": "24-12-1868", "parent_id": null, "family_id": null}
+Sending: {"id": 5016889167, "name": "Daniel", "birth": "2-1-1989", "parent_id": null, "family_id": null}
+Sending: {"id": 4966414515, "name": "Dylan", "birth": "6-7-1875", "parent_id": null, "family_id": null}
+Sending: {"id": 5021732459, "name": "Eleanor", "birth": "16-2-1874", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 6
+Request: /family/5011004451
+Sending: {"id": 5011004451, "husband_id": 4972299231, "wife_id": 4977142523, "children": [5005112583]}
+Current: active threads / max count: 1 / 6
+Request: /person/4977142523
+Current: active threads / max count: 2 / 6
+Request: /person/4972299231
+Sending: {"id": 4977142523, "name": "Mia", "birth": "12-4-1769", "parent_id": null, "family_id": 5011004451}
+Sending: {"id": 4972299231, "name": "Asher", "birth": "21-2-1774", "parent_id": 5016889167, "family_id": 5011004451}
+Current: active threads / max count: 1 / 6
+Request: /family/5016889167
+Sending: {"id": 5016889167, "husband_id": 4983033319, "wife_id": 4988933379, "children": [4994825263, 5066770251, 5072662135, 5078561171, 5084453055, 5089289179, 4972299231]}
+Current: active threads / max count: 1 / 6
+Request: /person/4994825263
+Current: active threads / max count: 2 / 6
+Request: /person/4983033319
+Current: active threads / max count: 3 / 6
+Request: /person/4988933379
+Current: active threads / max count: 4 / 6
+Request: /person/5066770251
+Current: active threads / max count: 5 / 6
+Request: /person/5072662135
+Current: active threads / max count: 6 / 6
+Request: /person/5084453055
+Current: active threads / max count: 7 / 7
+Request: /person/5078561171
+Current: active threads / max count: 8 / 8
+Request: /person/5089289179
+Sending: {"id": 4983033319, "name": "Anthony", "birth": "18-11-1967", "parent_id": 5021732459, "family_id": 5016889167}
+Sending: {"id": 4994825263, "name": "Jackson", "birth": "25-11-1904", "parent_id": null, "family_id": null}
+Sending: {"id": 4988933379, "name": "Scarlett", "birth": "9-11-1829", "parent_id": 4994825263, "family_id": 5016889167}
+Sending: {"id": 5066770251, "name": "Logan", "birth": "3-5-1871", "parent_id": null, "family_id": null}
+Sending: {"id": 5072662135, "name": "Addison", "birth": "29-7-1986", "parent_id": null, "family_id": null}
+Sending: {"id": 5084453055, "name": "Scarlett", "birth": "29-11-1915", "parent_id": null, "family_id": null}
+Sending: {"id": 5078561171, "name": "Dylan", "birth": "5-3-1870", "parent_id": null, "family_id": null}
+Sending: {"id": 5089289179, "name": "Joshua", "birth": "30-10-1956", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 8
+Request: /family/5021732459
+Sending: {"id": 5021732459, "husband_id": 5095180999, "wife_id": 5033962979, "children": [5039863055, 5044706347, 5050853207, 5056745075, 5061595551, 4866160827, 4872045479, 4877937347, 4983033319]}
+Current: active threads / max count: 1 / 8
+Request: /person/5095180999
+Current: active threads / max count: 2 / 8
+Current: active threads / max count: 3 / 8
+Request: /person/5044706347
+Current: active threads / max count: 4 / 8
+Request: /person/5039863055
+Request: /person/5050853207
+Current: active threads / max count: 5 / 8
+Request: /person/5033962979
+Current: active threads / max count: 6 / 8
+Request: /person/5061595551
+Current: active threads / max count: 7 / 8
+Request: /person/5056745075
+Current: active threads / max count: 8 / 8
+Request: /person/4866160827
+Current: active threads / max count: 9 / 9
+Request: /person/4872045479
+Current: active threads / max count: 10 / 10
+Request: /person/4877937347
+Sending: {"id": 5095180999, "name": "Julian", "birth": "27-5-1918", "parent_id": 5027631511, "family_id": 5021732459}
+Sending: {"id": 5044706347, "name": "Abigail", "birth": "20-10-1759", "parent_id": null, "family_id": null}
+Sending: {"id": 5050853207, "name": "Leo", "birth": "13-1-1974", "parent_id": null, "family_id": null}
+Sending: {"id": 5039863055, "name": "Ella", "birth": "27-1-1994", "parent_id": null, "family_id": null}
+Sending: {"id": 5033962979, "name": "Victoria", "birth": "1-1-1795", "parent_id": 4977142523, "family_id": 5021732459}
+Sending: {"id": 5061595551, "name": "John", "birth": "21-8-1812", "parent_id": null, "family_id": null}
+Sending: {"id": 5056745075, "name": "Hudson", "birth": "5-6-1918", "parent_id": null, "family_id": null}
+Sending: {"id": 4866160827, "name": "Julian", "birth": "8-3-1842", "parent_id": null, "family_id": null}
+Sending: {"id": 4872045479, "name": "Aurora", "birth": "23-3-1953", "parent_id": null, "family_id": null}
+Sending: {"id": 4877937347, "name": "Audrey", "birth": "20-7-1995", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5027631511
+Sending: {"id": 5027631511, "husband_id": 4882779631, "wife_id": 4888679691, "children": [4894571575, 4833347411, 4838190719, 5095180999]}
+Current: active threads / max count: 1 / 10
+Request: /person/4888679691
+Current: active threads / max count: 2 / 10
+Request: /person/4894571575
+Current: active threads / max count: 3 / 10
+Request: /person/4882779631
+Current: active threads / max count: 4 / 10
+Current: active threads / max count: 5 / 10
+Request: /person/4833347411
+Request: /person/4838190719
+Sending: {"id": 4888679691, "name": "Avery", "birth": "4-9-1799", "parent_id": 4972299231, "family_id": 5027631511}
+Sending: {"id": 4894571575, "name": "Natalie", "birth": "2-10-1860", "parent_id": null, "family_id": null}
+Sending: {"id": 4882779631, "name": "Alexander", "birth": "6-4-1940", "parent_id": 4966414515, "family_id": 5027631511}
+Sending: {"id": 4833347411, "name": "Natalie", "birth": "29-7-1971", "parent_id": null, "family_id": null}
+Sending: {"id": 4838190719, "name": "Dylan", "birth": "11-11-1833", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4966414515
+Sending: {"id": 4966414515, "husband_id": 4844089755, "wife_id": 4849981575, "children": [4855866275, 4860709583, 4933709291, 4939609367, 4882779631]}
+Current: active threads / max count: 1 / 10
+Request: /person/4849981575
+Current: active threads / max count: 2 / 10
+Request: /person/4844089755
+Current: active threads / max count: 3 / 10
+Request: /person/4855866275
+Current: active threads / max count: 4 / 10
+Current: active threads / max count: 5 / 10
+Request: /person/4939609367
+Request: /person/4860709583
+Current: active threads / max count: 6 / 10
+Request: /person/4933709291
+Sending: {"id": 4849981575, "name": "Everly", "birth": "19-7-1884", "parent_id": null, "family_id": 4966414515}
+Sending: {"id": 4844089755, "name": "Aiden", "birth": "19-7-1847", "parent_id": null, "family_id": 4966414515}
+Sending: {"id": 4855866275, "name": "Hannah", "birth": "17-5-1896", "parent_id": null, "family_id": null}
+Sending: {"id": 4939609367, "name": "Michael", "birth": "14-10-1937", "parent_id": null, "family_id": null}
+Sending: {"id": 4860709583, "name": "Stella", "birth": "27-11-1902", "parent_id": null, "family_id": null}
+Sending: {"id": 4933709291, "name": "Grace", "birth": "10-3-1864", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4972299231
+Sending: {"id": 4972299231, "husband_id": 4945501235, "wife_id": 4950337375, "children": [4956229243, 4962128231, 4900124803, 4906009519, 4911901387, 4917792247, 4922643731, 4888679691]}
+Current: active threads / max count: 1 / 10
+Request: /person/4945501235
+Current: active threads / max count: 2 / 10
+Request: /person/4950337375
+Current: active threads / max count: 3 / 10
+Request: /person/4956229243
+Current: active threads / max count: 4 / 10
+Request: /person/4962128231
+Current: active threads / max count: 5 / 10
+Request: /person/4900124803
+Current: active threads / max count: 6 / 10
+Request: /person/4906009519
+Current: active threads / max count: 7 / 10
+Request: /person/4911901387
+Current: active threads / max count: 8 / 10
+Request: /person/4917792247
+Current: active threads / max count: 9 / 10
+Request: /person/4922643731
+Sending: {"id": 4945501235, "name": "Michael", "birth": "22-2-1998", "parent_id": null, "family_id": 4972299231}
+Sending: {"id": 4956229243, "name": "Jack", "birth": "15-12-1995", "parent_id": null, "family_id": null}
+Sending: {"id": 4950337375, "name": "Everly", "birth": "30-5-1762", "parent_id": null, "family_id": 4972299231}
+Sending: {"id": 4962128231, "name": "Asher", "birth": "1-5-1759", "parent_id": null, "family_id": null}
+Sending: {"id": 4900124803, "name": "Henry", "birth": "26-8-1923", "parent_id": null, "family_id": null}
+Sending: {"id": 4906009519, "name": "Joshua", "birth": "11-10-1810", "parent_id": null, "family_id": null}
+Sending: {"id": 4911901387, "name": "Lily", "birth": "13-9-2015", "parent_id": null, "family_id": null}
+Sending: {"id": 4922643731, "name": "Zoe", "birth": "26-4-1756", "parent_id": null, "family_id": null}
+Sending: {"id": 4917792247, "name": "William", "birth": "1-5-1967", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4977142523
+Sending: {"id": 4977142523, "husband_id": 4928535615, "wife_id": 5269964635, "children": [5275856455, 5280706915, 5033962979]}
+Current: active threads / max count: 1 / 10
+Request: /person/5269964635
+Current: active threads / max count: 2 / 10
+Request: /person/4928535615
+Current: active threads / max count: 3 / 10
+Current: active threads / max count: 4 / 10
+Request: /person/5275856455
+Request: /person/5280706915
+Sending: {"id": 5269964635, "name": "Willow", "birth": "9-5-1955", "parent_id": 4988933379, "family_id": 4977142523}
+Sending: {"id": 4928535615, "name": "Jack", "birth": "31-5-1859", "parent_id": 4983033319, "family_id": 4977142523}
+Sending: {"id": 5275856455, "name": "Noah", "birth": "23-11-1861", "parent_id": null, "family_id": null}
+Sending: {"id": 5280706915, "name": "Charlotte", "birth": "28-2-1884", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4983033319
+Sending: {"id": 4983033319, "husband_id": 5286598799, "wife_id": 5292483499, "children": [5298375383, 5236108787, 4928535615]}
+Current: active threads / max count: 1 / 10
+Request: /person/5292483499
+Current: active threads / max count: 2 / 10
+Request: /person/5236108787
+Current: active threads / max count: 3 / 10
+Request: /person/5298375383
+Current: active threads / max count: 4 / 10
+Request: /person/5286598799
+Sending: {"id": 5292483499, "name": "Ellie", "birth": "28-10-1817", "parent_id": null, "family_id": 4983033319}
+Sending: {"id": 5236108787, "name": "Owen", "birth": "21-6-1992", "parent_id": null, "family_id": null}
+Sending: {"id": 5298375383, "name": "Abigail", "birth": "11-7-1778", "parent_id": null, "family_id": null}
+Sending: {"id": 5286598799, "name": "Christopher", "birth": "27-9-1889", "parent_id": null, "family_id": 4983033319}
+Current: active threads / max count: 1 / 10
+Request: /family/4988933379
+Sending: {"id": 4988933379, "husband_id": 5242008863, "wife_id": 5247900731, "children": [5253785383, 5258628675, 5264527727, 5337528459, 5269964635]}
+Current: active threads / max count: 1 / 10
+Request: /person/5242008863
+Current: active threads / max count: 2 / 10
+Request: /person/5247900731
+Current: active threads / max count: 3 / 10
+Request: /person/5253785383
+Current: active threads / max count: 4 / 10
+Request: /person/5337528459
+Current: active threads / max count: 5 / 10
+Current: active threads / max count: 6 / 10
+Request: /person/5258628675
+Request: /person/5264527727
+Sending: {"id": 5242008863, "name": "Jackson", "birth": "2-9-1927", "parent_id": null, "family_id": 4988933379}
+Sending: {"id": 5247900731, "name": "Ellie", "birth": "22-5-1788", "parent_id": null, "family_id": 4988933379}
+Sending: {"id": 5253785383, "name": "Benjamin", "birth": "22-3-1840", "parent_id": null, "family_id": null}
+Sending: {"id": 5337528459, "name": "Michael", "birth": "2-1-1935", "parent_id": null, "family_id": null}
+Sending: {"id": 5264527727, "name": "Olivia", "birth": "15-11-1976", "parent_id": null, "family_id": null}
+Sending: {"id": 5258628675, "name": "Owen", "birth": "6-10-1789", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4994825263
+Sending: {"id": 4994825263, "husband_id": 5343413175, "wife_id": 5348518611, "children": [5354409471, 5360309531, 5365152775, 4988933379]}
+Current: active threads / max count: 1 / 10
+Request: /person/5343413175
+Current: active threads / max count: 2 / 10
+Request: /person/5360309531
+Current: active threads / max count: 3 / 10
+Request: /person/5348518611
+Current: active threads / max count: 4 / 10
+Request: /person/5365152775
+Current: active threads / max count: 5 / 10
+Request: /person/5354409471
+Sending: {"id": 5343413175, "name": "Henry", "birth": "14-7-1818", "parent_id": 5066770251, "family_id": 4994825263}
+Sending: {"id": 5360309531, "name": "Ellie", "birth": "7-4-1900", "parent_id": null, "family_id": null}
+Sending: {"id": 5365152775, "name": "Violet", "birth": "26-10-1858", "parent_id": null, "family_id": null}
+Sending: {"id": 5348518611, "name": "Chloe", "birth": "2-11-1774", "parent_id": 5084453055, "family_id": 4994825263}
+Sending: {"id": 5354409471, "name": "Julian", "birth": "21-3-1815", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5066770251
+Sending: {"id": 5066770251, "husband_id": 5303928611, "wife_id": 5309820495, "children": [5315719531, 5320562839, 5326447539, 5332339423, 5136903675, 5141755111, 5147646979, 5153531695, 5343413175]}
+Current: active threads / max count: 1 / 10
+Current: active threads / max count: 2 / 10
+Request: /person/5309820495
+Request: /person/5303928611
+Current: active threads / max count: 3 / 10
+Request: /person/5315719531
+Current: active threads / max count: 4 / 10
+Request: /person/5320562839
+Current: active threads / max count: 5 / 10
+Request: /person/5326447539
+Current: active threads / max count: 6 / 10
+Request: /person/5332339423
+Current: active threads / max count: 7 / 10
+Request: /person/5136903675
+Current: active threads / max count: 8 / 10
+Request: /person/5141755111
+Current: active threads / max count: 9 / 10
+Request: /person/5147646979
+Current: active threads / max count: 10 / 10
+Request: /person/5153531695
+Sending: {"id": 5309820495, "name": "Bella", "birth": "5-8-2009", "parent_id": 5078561171, "family_id": 5066770251}
+Sending: {"id": 5303928611, "name": "David", "birth": "7-3-1823", "parent_id": 5072662135, "family_id": 5066770251}
+Sending: {"id": 5315719531, "name": "Julian", "birth": "7-6-1815", "parent_id": null, "family_id": null}
+Sending: {"id": 5332339423, "name": "Thomas", "birth": "5-8-1927", "parent_id": null, "family_id": null}
+Sending: {"id": 5326447539, "name": "Aurora", "birth": "27-11-1904", "parent_id": null, "family_id": null}
+Sending: {"id": 5141755111, "name": "Benjamin", "birth": "25-2-1935", "parent_id": null, "family_id": null}
+Sending: {"id": 5136903675, "name": "Eleanor", "birth": "1-12-1942", "parent_id": null, "family_id": null}
+Sending: {"id": 5320562839, "name": "Joseph", "birth": "16-1-1867", "parent_id": null, "family_id": null}
+Sending: {"id": 5147646979, "name": "Lincoln", "birth": "19-9-2015", "parent_id": null, "family_id": null}
+Sending: {"id": 5153531695, "name": "Christopher", "birth": "2-10-1805", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5072662135
+Sending: {"id": 5072662135, "husband_id": 5159423563, "wife_id": 5164274039, "children": [5103057043, 5108941759, 5114833627, 5119675847, 5303928611]}
+Current: active threads / max count: 1 / 10
+Request: /person/5114833627
+Current: active threads / max count: 2 / 10
+Request: /person/5164274039
+Current: active threads / max count: 3 / 10
+Request: /person/5159423563
+Current: active threads / max count: 4 / 10
+Request: /person/5103057043
+Current: active threads / max count: 5 / 10
+Request: /person/5119675847
+Current: active threads / max count: 6 / 10
+Request: /person/5108941759
+Sending: {"id": 5114833627, "name": "Olivia", "birth": "10-9-1987", "parent_id": null, "family_id": null}
+Sending: {"id": 5164274039, "name": "Amelia", "birth": "6-11-1841", "parent_id": null, "family_id": 5072662135}
+Sending: {"id": 5119675847, "name": "Audrey", "birth": "17-7-1865", "parent_id": null, "family_id": null}
+Sending: {"id": 5159423563, "name": "Michael", "birth": "22-10-1892", "parent_id": null, "family_id": 5072662135}
+Sending: {"id": 5103057043, "name": "Alexander", "birth": "11-10-1858", "parent_id": null, "family_id": null}
+Sending: {"id": 5108941759, "name": "Alexander", "birth": "27-4-1859", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5078561171
+Sending: {"id": 5078561171, "husband_id": 5125575907, "wife_id": 5131729935, "children": [5203674923, 5209566807, 5215465843, 5221357727, 5226193851, 5232085671, 5170867651, 5176767727, 5309820495]}
+Current: active threads / max count: 1 / 10
+Request: /person/5125575907
+Current: active threads / max count: 2 / 10
+Request: /person/5203674923
+Current: active threads / max count: 3 / 10
+Request: /person/5131729935
+Current: active threads / max count: 4 / 10
+Request: /person/5209566807
+Current: active threads / max count: 5 / 10
+Request: /person/5215465843
+Current: active threads / max count: 6 / 10
+Request: /person/5221357727
+Current: active threads / max count: 7 / 10
+Request: /person/5176767727
+Current: active threads / max count: 8 / 10
+Current: active threads / max count: 9 / 10
+Request: /person/5170867651
+Request: /person/5232085671
+Current: active threads / max count: 10 / 10
+Request: /person/5226193851
+Sending: {"id": 5125575907, "name": "Mateo", "birth": "14-11-1967", "parent_id": null, "family_id": 5078561171}
+Sending: {"id": 5203674923, "name": "Ethan", "birth": "30-6-1914", "parent_id": null, "family_id": null}
+Sending: {"id": 5131729935, "name": "Elizabeth", "birth": "12-7-1999", "parent_id": null, "family_id": 5078561171}
+Sending: {"id": 5209566807, "name": "Hannah", "birth": "16-3-1953", "parent_id": null, "family_id": null}
+Sending: {"id": 5215465843, "name": "Hazel", "birth": "11-1-1994", "parent_id": null, "family_id": null}
+Sending: {"id": 5221357727, "name": "Oliver", "birth": "10-4-1883", "parent_id": null, "family_id": null}
+Sending: {"id": 5170867651, "name": "Willow", "birth": "28-9-1937", "parent_id": null, "family_id": null}
+Sending: {"id": 5232085671, "name": "Thomas", "birth": "5-1-2012", "parent_id": null, "family_id": null}
+Sending: {"id": 5226193851, "name": "Riley", "birth": "10-1-1837", "parent_id": null, "family_id": null}
+Sending: {"id": 5176767727, "name": "Elijah", "birth": "10-11-1958", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5084453055
+Sending: {"id": 5084453055, "husband_id": 5181611019, "wife_id": 5187495735, "children": [5193387603, 5199286655, 4465932443, 5348518611]}
+Current: active threads / max count: 1 / 10
+Request: /person/5181611019
+Current: active threads / max count: 2 / 10
+Request: /person/5187495735
+Current: active threads / max count: 3 / 10
+Request: /person/5193387603
+Current: active threads / max count: 4 / 10
+Current: active threads / max count: 5 / 10
+Request: /person/4465932443
+Request: /person/5199286655
+Sending: {"id": 5181611019, "name": "Joseph", "birth": "19-12-1874", "parent_id": 5089289179, "family_id": 5084453055}
+Sending: {"id": 5187495735, "name": "Aubrey", "birth": "24-3-1996", "parent_id": 5095180999, "family_id": 5084453055}
+Sending: {"id": 5193387603, "name": "Levi", "birth": "21-1-2007", "parent_id": null, "family_id": null}
+Sending: {"id": 5199286655, "name": "Ava", "birth": "7-4-1842", "parent_id": null, "family_id": null}
+Sending: {"id": 4465932443, "name": "Penelope", "birth": "12-12-2015", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5089289179
+Sending: {"id": 5089289179, "husband_id": 4471817095, "wife_id": 4477708963, "children": [4483599823, 4488451307, 4494343191, 5181611019]}
+Current: active threads / max count: 1 / 10
+Request: /person/4471817095
+Current: active threads / max count: 2 / 10
+Request: /person/4483599823
+Current: active threads / max count: 3 / 10
+Request: /person/4477708963
+Current: active threads / max count: 4 / 10
+Request: /person/4488451307
+Current: active threads / max count: 5 / 10
+Request: /person/4494343191
+Sending: {"id": 4471817095, "name": "David", "birth": "3-4-2015", "parent_id": null, "family_id": 5089289179}
+Sending: {"id": 4483599823, "name": "Lucas", "birth": "13-11-1916", "parent_id": null, "family_id": null}
+Sending: {"id": 4477708963, "name": "Violet", "birth": "7-12-1772", "parent_id": null, "family_id": 5089289179}
+Sending: {"id": 4488451307, "name": "Camila", "birth": "13-8-1848", "parent_id": null, "family_id": null}
+Sending: {"id": 4494343191, "name": "Luke", "birth": "19-2-1883", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5095180999
+Sending: {"id": 5095180999, "husband_id": 4433119027, "wife_id": 4438224479, "children": [4444123515, 4450015335, 4455900035, 4460743343, 5187495735]}
+Current: active threads / max count: 1 / 10
+Request: /person/4433119027
+Current: active threads / max count: 2 / 10
+Request: /person/4438224479
+Current: active threads / max count: 3 / 10
+Request: /person/4444123515
+Current: active threads / max count: 4 / 10
+Request: /person/4450015335
+Current: active threads / max count: 5 / 10
+Request: /person/4455900035
+Current: active threads / max count: 6 / 10
+Request: /person/4460743343
+Sending: {"id": 4433119027, "name": "Jaxon", "birth": "11-3-1845", "parent_id": null, "family_id": 5095180999}
+Sending: {"id": 4438224479, "name": "Willow", "birth": "22-5-1834", "parent_id": null, "family_id": 5095180999}
+Sending: {"id": 4450015335, "name": "Lincoln", "birth": "16-11-1754", "parent_id": null, "family_id": null}
+Sending: {"id": 4444123515, "name": "Lincoln", "birth": "14-11-1777", "parent_id": null, "family_id": null}
+Sending: {"id": 4455900035, "name": "Isabella", "birth": "8-12-2013", "parent_id": null, "family_id": null}
+Sending: {"id": 4460743343, "name": "Madison", "birth": "13-1-1978", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5033962979
+Sending: {"id": 5033962979, "husband_id": 4533743051, "wife_id": 4539643127, "children": [4545534995, 4550371135, 4556263003, 4562161991, 5011004451]}
+Current: active threads / max count: 1 / 10
+Request: /person/4533743051
+Current: active threads / max count: 2 / 10
+Request: /person/4539643127
+Current: active threads / max count: 3 / 10
+Request: /person/4545534995
+Current: active threads / max count: 4 / 10
+Request: /person/4556263003
+Current: active threads / max count: 5 / 10
+Current: active threads / max count: 6 / 10
+Request: /person/4550371135
+Request: /person/4562161991
+Sending: {"id": 4533743051, "name": "Joseph", "birth": "18-8-1950", "parent_id": 5039863055, "family_id": 5033962979}
+Sending: {"id": 4539643127, "name": "Abigail", "birth": "16-6-1866", "parent_id": 4882779631, "family_id": 5033962979}
+Sending: {"id": 4545534995, "name": "Logan", "birth": "21-9-1838", "parent_id": null, "family_id": null}
+Sending: {"id": 4556263003, "name": "Isabella", "birth": "27-8-1809", "parent_id": null, "family_id": null}
+Sending: {"id": 4550371135, "name": "Aubrey", "birth": "29-3-1992", "parent_id": null, "family_id": null}
+Sending: {"id": 4562161991, "name": "Nora", "birth": "22-10-1936", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5039863055
+Sending: {"id": 5039863055, "husband_id": 4500944995, "wife_id": 4505781135, "children": [4511673003, 4517563863, 4523463923, 4528307231, 4533743051]}
+Current: active threads / max count: 1 / 10
+Request: /person/4500944995
+Current: active threads / max count: 2 / 10
+Current: active threads / max count: 3 / 10
+Request: /person/4511673003
+Current: active threads / max count: 4 / 10
+Request: /person/4505781135
+Request: /person/4523463923
+Current: active threads / max count: 5 / 10
+Request: /person/4517563863
+Current: active threads / max count: 6 / 10
+Request: /person/4528307231
+Sending: {"id": 4500944995, "name": "Michael", "birth": "16-1-1867", "parent_id": null, "family_id": 5039863055}
+Sending: {"id": 4511673003, "name": "Ella", "birth": "27-12-1932", "parent_id": null, "family_id": null}
+Sending: {"id": 4505781135, "name": "Hannah", "birth": "16-9-1915", "parent_id": 5044706347, "family_id": 5039863055}
+Sending: {"id": 4517563863, "name": "Benjamin", "birth": "25-10-1975", "parent_id": null, "family_id": null}
+Sending: {"id": 4523463923, "name": "Amelia", "birth": "3-11-1882", "parent_id": null, "family_id": null}
+Sending: {"id": 4528307231, "name": "Abigail", "birth": "7-4-2001", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5044706347
+Sending: {"id": 5044706347, "husband_id": 4332865339, "wife_id": 4338757159, "children": [4344656195, 4349499503, 4355646347, 4361538231, 4299271635, 4305171711, 4505781135]}
+Current: active threads / max count: 1 / 10
+Request: /person/4344656195
+Current: active threads / max count: 2 / 10
+Request: /person/4332865339
+Current: active threads / max count: 3 / 10
+Request: /person/4338757159
+Current: active threads / max count: 4 / 10
+Request: /person/4349499503
+Current: active threads / max count: 5 / 10
+Request: /person/4355646347
+Current: active threads / max count: 6 / 10
+Request: /person/4299271635
+Current: active threads / max count: 7 / 10
+Request: /person/4305171711
+Current: active threads / max count: 8 / 10
+Request: /person/4361538231
+Sending: {"id": 4344656195, "name": "Asher", "birth": "28-3-1931", "parent_id": null, "family_id": null}
+Sending: {"id": 4332865339, "name": "Jaxon", "birth": "15-4-1794", "parent_id": 5050853207, "family_id": 5044706347}
+Sending: {"id": 4338757159, "name": "Stella", "birth": "17-9-1822", "parent_id": 4866160827, "family_id": 5044706347}
+Sending: {"id": 4349499503, "name": "Mila", "birth": "6-5-1851", "parent_id": null, "family_id": null}
+Sending: {"id": 4355646347, "name": "Isabella", "birth": "12-4-1903", "parent_id": null, "family_id": null}
+Sending: {"id": 4299271635, "name": "Owen", "birth": "15-2-1963", "parent_id": null, "family_id": null}
+Sending: {"id": 4305171711, "name": "Ezra", "birth": "2-3-1816", "parent_id": null, "family_id": null}
+Sending: {"id": 4361538231, "name": "Addison", "birth": "22-10-1946", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5050853207
+Sending: {"id": 5050853207, "husband_id": 4311063579, "wife_id": 4316948231, "children": [4321791523, 4327690575, 4400691307, 4406576023, 4411419315, 4417310175, 4423210235, 4332865339]}
+Current: active threads / max count: 1 / 10
+Request: /person/4311063579
+Current: active threads / max count: 2 / 10
+Request: /person/4316948231
+Current: active threads / max count: 3 / 10
+Request: /person/4327690575
+Current: active threads / max count: 4 / 10
+Request: /person/4321791523
+Current: active threads / max count: 5 / 10
+Request: /person/4400691307
+Current: active threads / max count: 6 / 10
+Request: /person/4406576023
+Current: active threads / max count: 7 / 10
+Request: /person/4411419315
+Current: active threads / max count: 8 / 10
+Current: active threads / max count: 9 / 10
+Request: /person/4417310175
+Request: /person/4423210235
+Sending: {"id": 4311063579, "name": "Samuel", "birth": "31-8-2010", "parent_id": 5056745075, "family_id": 5050853207}
+Sending: {"id": 4316948231, "name": "Riley", "birth": "30-11-1907", "parent_id": 5061595551, "family_id": 5050853207}
+Sending: {"id": 4327690575, "name": "Penelope", "birth": "11-8-1905", "parent_id": null, "family_id": null}
+Sending: {"id": 4406576023, "name": "Hudson", "birth": "15-1-1936", "parent_id": null, "family_id": null}
+Sending: {"id": 4400691307, "name": "Willow", "birth": "27-11-1805", "parent_id": null, "family_id": null}
+Sending: {"id": 4321791523, "name": "John", "birth": "19-10-1835", "parent_id": null, "family_id": null}
+Sending: {"id": 4411419315, "name": "Evelyn", "birth": "16-6-1790", "parent_id": null, "family_id": null}
+Sending: {"id": 4417310175, "name": "Mason", "birth": "19-12-1876", "parent_id": null, "family_id": null}
+Sending: {"id": 4423210235, "name": "Aria", "birth": "12-9-1932", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5056745075
+Sending: {"id": 5056745075, "husband_id": 4429103079, "wife_id": 4366829315, "children": [4372721199, 4378620235, 4384512119, 4311063579]}
+Current: active threads / max count: 1 / 10
+Request: /person/4429103079
+Current: active threads / max count: 2 / 10
+Request: /person/4366829315
+Current: active threads / max count: 3 / 10
+Request: /person/4372721199
+Current: active threads / max count: 4 / 10
+Request: /person/4378620235
+Current: active threads / max count: 5 / 10
+Request: /person/4384512119
+Sending: {"id": 4429103079, "name": "William", "birth": "19-11-1823", "parent_id": null, "family_id": 5056745075}
+Sending: {"id": 4366829315, "name": "Everly", "birth": "10-12-1910", "parent_id": null, "family_id": 5056745075}
+Sending: {"id": 4372721199, "name": "Olivia", "birth": "21-4-1880", "parent_id": null, "family_id": null}
+Sending: {"id": 4378620235, "name": "Jackson", "birth": "1-11-1973", "parent_id": null, "family_id": null}
+Sending: {"id": 4384512119, "name": "Aiden", "birth": "3-8-1974", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/5061595551
+Sending: {"id": 5061595551, "husband_id": 4389348243, "wife_id": 4395240127, "children": [4736937435, 4741788871, 4747681763, 4316948231]}
+Current: active threads / max count: 1 / 10
+Request: /person/4395240127
+Current: active threads / max count: 2 / 10
+Request: /person/4389348243
+Current: active threads / max count: 3 / 10
+Request: /person/4736937435
+Current: active threads / max count: 4 / 10
+Request: /person/4741788871
+Current: active threads / max count: 5 / 10
+Request: /person/4747681763
+Sending: {"id": 4395240127, "name": "Leah", "birth": "1-8-1898", "parent_id": null, "family_id": 5061595551}
+Sending: {"id": 4389348243, "name": "Aiden", "birth": "20-7-2001", "parent_id": null, "family_id": 5061595551}
+Sending: {"id": 4741788871, "name": "Henry", "birth": "28-9-1918", "parent_id": null, "family_id": null}
+Sending: {"id": 4736937435, "name": "Madison", "birth": "3-6-1813", "parent_id": null, "family_id": null}
+Sending: {"id": 4747681763, "name": "Isaac", "birth": "11-7-1755", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4866160827
+Sending: {"id": 4866160827, "husband_id": 4753565455, "wife_id": 4759457323, "children": [4764307799, 4703090803, 4708975519, 4714867387, 4719709607, 4725609667, 4798611439, 4338757159]}
+Current: active threads / max count: 1 / 10
+Request: /person/4753565455
+Current: active threads / max count: 2 / 10
+Request: /person/4759457323
+Current: active threads / max count: 3 / 10
+Current: active threads / max count: 4 / 10
+Request: /person/4703090803
+Request: /person/4764307799
+Current: active threads / max count: 5 / 10
+Request: /person/4708975519
+Current: active threads / max count: 6 / 10
+Request: /person/4714867387
+Current: active threads / max count: 7 / 10
+Current: active threads / max count: 8 / 10
+Request: /person/4725609667
+Current: active threads / max count: 9 / 10
+Request: /person/4798611439
+Request: /person/4719709607
+Sending: {"id": 4759457323, "name": "Natalie", "birth": "14-11-1959", "parent_id": 4877937347, "family_id": 4866160827}
+Sending: {"id": 4753565455, "name": "Elijah", "birth": "6-8-1964", "parent_id": 4872045479, "family_id": 4866160827}
+Sending: {"id": 4703090803, "name": "Thomas", "birth": "28-3-1915", "parent_id": null, "family_id": null}
+Sending: {"id": 4764307799, "name": "Sebastian", "birth": "26-9-1769", "parent_id": null, "family_id": null}
+Sending: {"id": 4714867387, "name": "Isaac", "birth": "19-9-1966", "parent_id": null, "family_id": null}
+Sending: {"id": 4708975519, "name": "Samuel", "birth": "3-5-1915", "parent_id": null, "family_id": null}
+Sending: {"id": 4725609667, "name": "Joseph", "birth": "18-6-1968", "parent_id": null, "family_id": null}
+Sending: {"id": 4798611439, "name": "Lucy", "birth": "30-6-1759", "parent_id": null, "family_id": null}
+Sending: {"id": 4719709607, "name": "Matthew", "birth": "5-1-1956", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4872045479
+Sending: {"id": 4872045479, "husband_id": 4804495115, "wife_id": 4809338423, "children": [4815237459, 4821129343, 4827014043, 4753565455]}
+Current: active threads / max count: 1 / 10
+Request: /person/4809338423
+Current: active threads / max count: 2 / 10
+Request: /person/4804495115
+Current: active threads / max count: 3 / 10
+Request: /person/4815237459
+Current: active threads / max count: 4 / 10
+Request: /person/4821129343
+Current: active threads / max count: 5 / 10
+Request: /person/4827014043
+Sending: {"id": 4809338423, "name": "Mila", "birth": "31-12-1976", "parent_id": null, "family_id": 4872045479}
+Sending: {"id": 4804495115, "name": "Michael", "birth": "18-2-1867", "parent_id": null, "family_id": 4872045479}
+Sending: {"id": 4815237459, "name": "Ezra", "birth": "19-3-1995", "parent_id": null, "family_id": null}
+Sending: {"id": 4827014043, "name": "Amelia", "birth": "9-4-1892", "parent_id": null, "family_id": null}
+Sending: {"id": 4821129343, "name": "Asher", "birth": "7-1-1955", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4877937347
+Sending: {"id": 4877937347, "husband_id": 4764748423, "wife_id": 4770639267, "children": [4759457323]}
+Current: active threads / max count: 1 / 10
+Request: /person/4770639267
+Current: active threads / max count: 2 / 10
+Request: /person/4764748423
+Sending: {"id": 4770639267, "name": "Hazel", "birth": "14-4-2018", "parent_id": null, "family_id": 4877937347}
+Sending: {"id": 4764748423, "name": "Levi", "birth": "14-11-1922", "parent_id": null, "family_id": 4877937347}
+Current: active threads / max count: 1 / 10
+Request: /family/4882779631
+Sending: {"id": 4882779631, "husband_id": 4776539343, "wife_id": 4782432235, "children": [4787529495, 4793421363, 4597993823, 4602837115, 4608721767, 4539643127]}
+Current: active threads / max count: 1 / 10
+Request: /person/4793421363
+Current: active threads / max count: 2 / 10
+Request: /person/4776539343
+Current: active threads / max count: 3 / 10
+Request: /person/4782432235
+Current: active threads / max count: 4 / 10
+Current: active threads / max count: 5 / 10
+Request: /person/4787529495
+Request: /person/4597993823
+Current: active threads / max count: 6 / 10
+Request: /person/4602837115
+Current: active threads / max count: 7 / 10
+Request: /person/4608721767
+Sending: {"id": 4793421363, "name": "Amelia", "birth": "14-1-1964", "parent_id": null, "family_id": null}
+Sending: {"id": 4776539343, "name": "William", "birth": "3-2-1907", "parent_id": 4888679691, "family_id": 4882779631}
+Sending: {"id": 4782432235, "name": "Luna", "birth": "12-2-2016", "parent_id": 4855866275, "family_id": 4882779631}
+Sending: {"id": 4787529495, "name": "Anthony", "birth": "17-5-1914", "parent_id": null, "family_id": null}
+Sending: {"id": 4602837115, "name": "Penelope", "birth": "5-1-1802", "parent_id": null, "family_id": null}
+Sending: {"id": 4608721767, "name": "Liam", "birth": "8-8-1925", "parent_id": null, "family_id": null}
+Sending: {"id": 4597993823, "name": "Hannah", "birth": "11-6-1882", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4888679691
+Sending: {"id": 4888679691, "husband_id": 4614613635, "wife_id": 4620504495, "children": [4625355979, 4564140023, 4570023699, 4575915583, 4580766043, 4586657863, 4592542563, 4665543311, 4776539343]}
+Current: active threads / max count: 1 / 10
+Request: /person/4614613635
+Current: active threads / max count: 2 / 10
+Request: /person/4620504495
+Current: active threads / max count: 3 / 10
+Request: /person/4564140023
+Current: active threads / max count: 4 / 10
+Request: /person/4625355979
+Current: active threads / max count: 5 / 10
+Request: /person/4575915583
+Current: active threads / max count: 6 / 10
+Request: /person/4570023699
+Current: active threads / max count: 7 / 10
+Request: /person/4586657863
+Current: active threads / max count: 8 / 10
+Request: /person/4665543311
+Current: active threads / max count: 9 / 10
+Request: /person/4592542563
+Current: active threads / max count: 10 / 10
+Request: /person/4580766043
+Sending: {"id": 4614613635, "name": "Jack", "birth": "3-10-1885", "parent_id": 4894571575, "family_id": 4888679691}
+Sending: {"id": 4620504495, "name": "Willow", "birth": "5-7-1957", "parent_id": 4838190719, "family_id": 4888679691}
+Sending: {"id": 4625355979, "name": "Victoria", "birth": "17-1-1854", "parent_id": null, "family_id": null}
+Sending: {"id": 4564140023, "name": "Lillian", "birth": "21-9-1847", "parent_id": null, "family_id": null}
+Sending: {"id": 4575915583, "name": "Zoe", "birth": "19-1-1966", "parent_id": null, "family_id": null}
+Sending: {"id": 4570023699, "name": "Lincoln", "birth": "30-12-1976", "parent_id": null, "family_id": null}
+Sending: {"id": 4586657863, "name": "Aurora", "birth": "3-12-2010", "parent_id": null, "family_id": null}
+Sending: {"id": 4592542563, "name": "Riley", "birth": "20-11-1903", "parent_id": null, "family_id": null}
+Sending: {"id": 4665543311, "name": "Jacob", "birth": "4-3-1942", "parent_id": null, "family_id": null}
+Sending: {"id": 4580766043, "name": "William", "birth": "15-5-1815", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4894571575
+Sending: {"id": 4894571575, "husband_id": 4670385579, "wife_id": 4676285655, "children": [4614613635]}
+Current: active threads / max count: 1 / 10
+Request: /person/4670385579
+Current: active threads / max count: 2 / 10
+Request: /person/4676285655
+Sending: {"id": 4670385579, "name": "Josiah", "birth": "8-3-2012", "parent_id": null, "family_id": 4894571575}
+Sending: {"id": 4676285655, "name": "Scarlett", "birth": "19-7-1979", "parent_id": 4833347411, "family_id": 4894571575}
+Current: active threads / max count: 1 / 10
+Request: /family/4833347411
+Sending: {"id": 4833347411, "husband_id": 4682178547, "wife_id": 4688062239, "children": [4692905531, 4676285655]}
+Current: active threads / max count: 1 / 10
+Request: /person/4682178547
+Current: active threads / max count: 2 / 10
+Request: /person/4688062239
+Current: active threads / max count: 3 / 10
+Request: /person/4692905531
+Sending: {"id": 4682178547, "name": "Oliver", "birth": "16-11-1981", "parent_id": null, "family_id": 4833347411}
+Sending: {"id": 4692905531, "name": "Aria", "birth": "25-11-2007", "parent_id": null, "family_id": null}
+Sending: {"id": 4688062239, "name": "Audrey", "birth": "5-12-1789", "parent_id": null, "family_id": 4833347411}
+Current: active threads / max count: 1 / 10
+Request: /family/4838190719
+Sending: {"id": 4838190719, "husband_id": 4631695655, "wife_id": 4637849667, "children": [4642685807, 4648577675, 4654468535, 4660368595, 6074499071, 4620504495]}
+Current: active threads / max count: 1 / 10
+Request: /person/4631695655
+Current: active threads / max count: 2 / 10
+Request: /person/4642685807
+Current: active threads / max count: 3 / 10
+Request: /person/4637849667
+Current: active threads / max count: 4 / 10
+Request: /person/4648577675
+Current: active threads / max count: 5 / 10
+Request: /person/4654468535
+Current: active threads / max count: 6 / 10
+Current: active threads / max count: 7 / 10
+Request: /person/4660368595
+Request: /person/6074499071
+Sending: {"id": 4631695655, "name": "Jayden", "birth": "6-12-1953", "parent_id": 4844089755, "family_id": 4838190719}
+Sending: {"id": 4642685807, "name": "Anthony", "birth": "4-1-1844", "parent_id": null, "family_id": null}
+Sending: {"id": 4654468535, "name": "Alexander", "birth": "19-3-1923", "parent_id": null, "family_id": null}
+Sending: {"id": 4637849667, "name": "Scarlett", "birth": "2-4-2014", "parent_id": 4849981575, "family_id": 4838190719}
+Sending: {"id": 6074499071, "name": "Madison", "birth": "15-9-1758", "parent_id": null, "family_id": null}
+Sending: {"id": 4660368595, "name": "Zoey", "birth": "16-8-1993", "parent_id": null, "family_id": null}
+Sending: {"id": 4648577675, "name": "Christopher", "birth": "18-9-1918", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4844089755
+Sending: {"id": 4844089755, "husband_id": 6080382747, "wife_id": 6086274567, "children": [6092173603, 4631695655]}
+Current: active threads / max count: 1 / 10
+Request: /person/6080382747
+Current: active threads / max count: 2 / 10
+Request: /person/6092173603
+Current: active threads / max count: 3 / 10
+Request: /person/6086274567
+Sending: {"id": 6080382747, "name": "Leo", "birth": "18-6-1929", "parent_id": null, "family_id": 4844089755}
+Sending: {"id": 6092173603, "name": "Abigail", "birth": "22-11-1810", "parent_id": null, "family_id": null}
+Sending: {"id": 6086274567, "name": "Bella", "birth": "28-3-1848", "parent_id": null, "family_id": 4844089755}
+Current: active threads / max count: 1 / 10
+Request: /family/4849981575
+Sending: {"id": 4849981575, "husband_id": 6097016911, "wife_id": 6102901611, "children": [6041684631, 6047575475, 6052426975, 4637849667]}
+Current: active threads / max count: 1 / 10
+Request: /person/6102901611
+Current: active threads / max count: 2 / 10
+Request: /person/6097016911
+Current: active threads / max count: 3 / 10
+Request: /person/6047575475
+Current: active threads / max count: 4 / 10
+Request: /person/6041684631
+Current: active threads / max count: 5 / 10
+Request: /person/6052426975
+Sending: {"id": 6102901611, "name": "Bella", "birth": "19-2-1837", "parent_id": null, "family_id": 4849981575}
+Sending: {"id": 6097016911, "name": "Liam", "birth": "13-4-1766", "parent_id": null, "family_id": 4849981575}
+Sending: {"id": 6047575475, "name": "Elizabeth", "birth": "5-12-1778", "parent_id": null, "family_id": null}
+Sending: {"id": 6052426975, "name": "Owen", "birth": "28-8-1777", "parent_id": null, "family_id": null}
+Sending: {"id": 6041684631, "name": "Carter", "birth": "17-11-2018", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4855866275
+Sending: {"id": 4855866275, "husband_id": 6058319867, "wife_id": 6064203495, "children": [6070095363, 6142054703, 6147946571, 6153831287, 6158936723, 6164827583, 6170727643, 4782432235]}
+Current: active threads / max count: 1 / 10
+Request: /person/6058319867
+Current: active threads / max count: 2 / 10
+Request: /person/6064203495
+Current: active threads / max count: 3 / 10
+Request: /person/6070095363
+Current: active threads / max count: 4 / 10
+Request: /person/6142054703
+Current: active threads / max count: 5 / 10
+Request: /person/6147946571
+Current: active threads / max count: 6 / 10
+Request: /person/6153831287
+Current: active threads / max count: 7 / 10
+Request: /person/6158936723
+Current: active threads / max count: 8 / 10
+Request: /person/6164827583
+Current: active threads / max count: 9 / 10
+Request: /person/6170727643
+Sending: {"id": 6058319867, "name": "Henry", "birth": "22-9-1788", "parent_id": 4860709583, "family_id": 4855866275}
+Sending: {"id": 6064203495, "name": "Hazel", "birth": "28-8-1892", "parent_id": 4945501235, "family_id": 4855866275}
+Sending: {"id": 6070095363, "name": "Sophia", "birth": "8-3-1790", "parent_id": null, "family_id": null}
+Sending: {"id": 6147946571, "name": "Luke", "birth": "11-3-1977", "parent_id": null, "family_id": null}
+Sending: {"id": 6142054703, "name": "Victoria", "birth": "19-4-1876", "parent_id": null, "family_id": null}
+Sending: {"id": 6153831287, "name": "Leo", "birth": "25-5-1857", "parent_id": null, "family_id": null}
+Sending: {"id": 6158936723, "name": "Penelope", "birth": "10-10-1828", "parent_id": null, "family_id": null}
+Sending: {"id": 6164827583, "name": "Aubrey", "birth": "2-11-1817", "parent_id": null, "family_id": null}
+Sending: {"id": 6170727643, "name": "Elijah", "birth": "20-4-1834", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4860709583
+Sending: {"id": 4860709583, "husband_id": 6109511623, "wife_id": 6114346723, "children": [6058319867]}
+Current: active threads / max count: 1 / 10
+Request: /person/6109511623
+Current: active threads / max count: 2 / 10
+Request: /person/6114346723
+Sending: {"id": 6109511623, "name": "Isaac", "birth": "31-5-1772", "parent_id": 4933709291, "family_id": 4860709583}
+Sending: {"id": 6114346723, "name": "Emilia", "birth": "17-12-1855", "parent_id": 4939609367, "family_id": 4860709583}
+Current: active threads / max count: 1 / 10
+Request: /family/4933709291
+Sending: {"id": 4933709291, "husband_id": 6120238607, "wife_id": 6126137643, "children": [6132029527, 6136865651, 5941430943, 5947321787, 5953221799, 5958066115, 5963949807, 6109511623]}
+Current: active threads / max count: 1 / 10
+Request: /person/6120238607
+Current: active threads / max count: 2 / 10
+Request: /person/6126137643
+Current: active threads / max count: 3 / 10
+Request: /person/6132029527
+Current: active threads / max count: 4 / 10
+Request: /person/6136865651
+Current: active threads / max count: 5 / 10
+Request: /person/5941430943
+Current: active threads / max count: 6 / 10
+Request: /person/5947321787
+Current: active threads / max count: 7 / 10
+Request: /person/5958066115
+Current: active threads / max count: 8 / 10
+Request: /person/5953221799
+Current: active threads / max count: 9 / 10
+Request: /person/5963949807
+Sending: {"id": 6120238607, "name": "William", "birth": "18-4-2001", "parent_id": null, "family_id": 4933709291}
+Sending: {"id": 6126137643, "name": "Mila", "birth": "26-3-1914", "parent_id": null, "family_id": 4933709291}
+Sending: {"id": 6132029527, "name": "Eleanor", "birth": "24-3-2017", "parent_id": null, "family_id": null}
+Sending: {"id": 6136865651, "name": "Alexander", "birth": "21-5-2015", "parent_id": null, "family_id": null}
+Sending: {"id": 5941430943, "name": "Grayson", "birth": "29-4-1763", "parent_id": null, "family_id": null}
+Sending: {"id": 5947321787, "name": "Levi", "birth": "9-5-1933", "parent_id": null, "family_id": null}
+Sending: {"id": 5958066115, "name": "Jack", "birth": "8-6-1893", "parent_id": null, "family_id": null}
+Sending: {"id": 5953221799, "name": "Ellie", "birth": "24-1-1859", "parent_id": null, "family_id": null}
+Sending: {"id": 5963949807, "name": "Mateo", "birth": "3-10-1762", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4939609367
+Sending: {"id": 4939609367, "husband_id": 5969841675, "wife_id": 5908631863, "children": [5913475155, 5919359871, 5925251739, 6114346723]}
+Current: active threads / max count: 1 / 10
+Current: active threads / max count: 2 / 10
+Request: /person/5969841675
+Current: active threads / max count: 3 / 10
+Request: /person/5908631863
+Current: active threads / max count: 4 / 10
+Request: /person/5913475155
+Request: /person/5919359871
+Current: active threads / max count: 5 / 10
+Request: /person/5925251739
+Sending: {"id": 5969841675, "name": "Alexander", "birth": "19-5-1984", "parent_id": null, "family_id": 4939609367}
+Sending: {"id": 5908631863, "name": "Nora", "birth": "18-11-1970", "parent_id": null, "family_id": 4939609367}
+Sending: {"id": 5925251739, "name": "Luna", "birth": "22-11-1914", "parent_id": null, "family_id": null}
+Sending: {"id": 5919359871, "name": "Hazel", "birth": "6-11-1950", "parent_id": null, "family_id": null}
+Sending: {"id": 5913475155, "name": "Bella", "birth": "9-2-1826", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4945501235
+Sending: {"id": 4945501235, "husband_id": 5931142535, "wife_id": 5935994019, "children": [6009257935, 6015141611, 6019984919, 6025883955, 6031775839, 6037660539, 5975394919, 5981285763, 6064203495]}
+Current: active threads / max count: 1 / 10
+Request: /person/5935994019
+Current: active threads / max count: 2 / 10
+Request: /person/6009257935
+Current: active threads / max count: 3 / 10
+Request: /person/5931142535
+Current: active threads / max count: 4 / 10
+Request: /person/6015141611
+Current: active threads / max count: 5 / 10
+Request: /person/6019984919
+Current: active threads / max count: 6 / 10
+Request: /person/6031775839
+Current: active threads / max count: 7 / 10
+Request: /person/6037660539
+Current: active threads / max count: 8 / 10
+Request: /person/6025883955
+Current: active threads / max count: 9 / 10
+Current: active threads / max count: 10 / 10
+Request: /person/5975394919
+Request: /person/5981285763
+Sending: {"id": 5935994019, "name": "Zoey", "birth": "25-10-1775", "parent_id": null, "family_id": 4945501235}
+Sending: {"id": 6009257935, "name": "Zoe", "birth": "30-5-1884", "parent_id": null, "family_id": null}
+Sending: {"id": 5931142535, "name": "Grayson", "birth": "10-7-1807", "parent_id": 4950337375, "family_id": 4945501235}
+Sending: {"id": 6015141611, "name": "Lucy", "birth": "13-6-1850", "parent_id": null, "family_id": null}
+Sending: {"id": 6019984919, "name": "Aria", "birth": "26-12-1967", "parent_id": null, "family_id": null}
+Sending: {"id": 6025883955, "name": "Benjamin", "birth": "27-9-1869", "parent_id": null, "family_id": null}
+Sending: {"id": 6031775839, "name": "Ethan", "birth": "6-10-1950", "parent_id": null, "family_id": null}
+Sending: {"id": 6037660539, "name": "Amelia", "birth": "17-2-1961", "parent_id": null, "family_id": null}
+Sending: {"id": 5975394919, "name": "Wyatt", "birth": "26-1-1946", "parent_id": null, "family_id": null}
+Sending: {"id": 5981285763, "name": "John", "birth": "27-8-1871", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /family/4950337375
+Sending: {"id": 4950337375, "husband_id": 5987185839, "wife_id": 5993078731, "children": [5997913847, 6003805715, 6345249087, 6351140955, 5931142535]}
+Current: active threads / max count: 1 / 10
+Request: /person/5997913847
+Current: active threads / max count: 2 / 10
+Request: /person/5993078731
+Current: active threads / max count: 3 / 10
+Request: /person/6003805715
+Current: active threads / max count: 4 / 10
+Request: /person/5987185839
+Current: active threads / max count: 5 / 10
+Request: /person/6345249087
+Current: active threads / max count: 6 / 10
+Request: /person/6351140955
+Sending: {"id": 5997913847, "name": "Levi", "birth": "12-5-1772", "parent_id": null, "family_id": null}
+Sending: {"id": 5993078731, "name": "Zoey", "birth": "19-5-1817", "parent_id": null, "family_id": 4950337375}
+Sending: {"id": 6003805715, "name": "Jaxon", "birth": "8-9-1924", "parent_id": null, "family_id": null}
+Sending: {"id": 5987185839, "name": "Christopher", "birth": "4-1-1944", "parent_id": null, "family_id": 4950337375}
+Sending: {"id": 6345249087, "name": "Harper", "birth": "5-11-1950", "parent_id": null, "family_id": null}
+Sending: {"id": 6351140955, "name": "Anthony", "birth": "29-9-1900", "parent_id": null, "family_id": null}
+Current: active threads / max count: 1 / 10
+Request: /end
+################################################################################
+Total number of people  : 240
+Total number of families: 39
+Number of generations   : 6
+Families were requested in this order:
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39
+Total number of API calls: 281
+Final thread count (max count): 10
+################################################################################
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 10
+Request: /start/6
+Creating family tree with 6 generations...
+Number of people  : 127
+Number of families: 20
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /end
+################################################################################
+Total number of people  : 127
+Total number of families: 20
+Number of generations   : 6
+Families were requested in this order:
+
+Total number of API calls: 2
+Final thread count (max count): 1
+################################################################################
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /start/6
+Creating family tree with 6 generations...
+Number of people  : 290
+Number of families: 46
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /end
+################################################################################
+Total number of people  : 290
+Total number of families: 46
+Number of generations   : 6
+Families were requested in this order:
+
+Total number of API calls: 2
+Final thread count (max count): 1
+################################################################################
+Sending: {"status":"OK"}

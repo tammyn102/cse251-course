@@ -2,7 +2,7 @@
 Course: CSE 251
 Lesson Week: 14
 File: assignment.py
-Author: <your name>
+Author: Tammy Nolasco
 Purpose: Assignment 13 - Family Search
 Instructions:
 Depth First Search
@@ -281,7 +281,46 @@ def depth_fs_pedigree(family_id, tree):
     recursive call on the husband
     recursive call on the wife
     """
+    reqFamily = Request_thread(f'{TOP_API_URL}/family/{family_id}')
+    reqFamily.start()
+    reqFamily.join()
 
+    newFamily = Family(family_id,reqFamily.response)
+    tree.add_family(newFamily)
+
+    husband = None
+    wife = None
+
+    req_person = []
+    husbandId = newFamily.husband
+    wifeId = newFamily.wife
+
+    req_person.append(Request_thread(f'{TOP_API_URL}/person/{husbandId}'))
+    req_person.append(Request_thread(f'{TOP_API_URL}/person/{wifeId}'))
+
+    for childId in newFamily.children:
+        if not tree.does_person_exist(childId):
+             req_person.append(Request_thread(f'{TOP_API_URL}/person/{childId}'))
+    for i in req_person:
+        i.start()
+    for i in req_person:
+        i.join()
+    
+    husband = Person(req_person[0].response)
+    wife = Person(req_person[1].response)
+
+    for i in req_person[2:]:
+         tree.add_person(Person(i.response))
+
+    if husband != None:
+        tree.add_person(husband)
+        depth_fs_pedigree(husband.parents, tree)
+
+    if wife != None:
+        tree.add_person(wife)
+        depth_fs_pedigree(wife.parents, tree)
+
+    
 # -----------------------------------------------------------------------------
 # You must not change this function
 def part1(log, start_id, generations):
@@ -306,15 +345,73 @@ def part1(log, start_id, generations):
     log.write('')
     
 # -----------------------------------------------------------------------------
+# work on this
 def breadth_fs_pedigree(start_id, tree):
     # TODO - implement breadth first retrieval
     # This video might help understand BFS
     # https://www.youtube.com/watch?v=86g8jAQug04
 
-    print('\n\n\nWARNING: BFS function not written')
+    # print('\n\n\nWARNING: BFS function not written')
+    # queue = []
+    # queue.append(tree)
 
-    pass
+    # while queue:          # Creating loop to visit each node
+    #  m = queue.pop(0) 
+    # print (m, end = " ") 
 
+    # for Nfamily in tree[m]:
+    #   if Nfamily not in start_id:
+    #     start_id.append(Nfamily)
+    #     queue.append(Nfamily)
+    
+    reqFamily = Request_thread(f'{TOP_API_URL}/family/{start_id}')
+    reqFamily.start()
+    reqFamily.join()
+
+    newFamily = Family(start_id,reqFamily.response)
+    tree.add_family(newFamily)
+
+    husband = None
+    wife = None
+
+    req_person = []
+    husbandId = newFamily.husband
+    wifeId = newFamily.wife
+
+    req_person.append(Request_thread(f'{TOP_API_URL}/person/{husbandId}'))
+    req_person.append(Request_thread(f'{TOP_API_URL}/person/{wifeId}'))
+
+    for childId in newFamily.children:
+        if not tree.does_person_exist(childId):
+             req_person.append(Request_thread(f'{TOP_API_URL}/person/{childId}'))
+    for i in req_person:
+        i.start()
+    for i in req_person:
+        i.join()
+    
+    husband = Person(req_person[0].response)
+    wife = Person(req_person[1].response)
+
+    for i in req_person[2:]:
+         tree.add_person(Person(i.response))
+    
+    ts = []
+
+    if husband != None:
+        tree.add_person(husband)
+        ts.append(threading.Thread(target=breadth_fs_pedigree, args=(husband.parents, tree)))
+
+    if wife != None:
+        tree.add_person(wife)
+        ts.append(threading.Thread(target=breadth_fs_pedigree, args=(wife.parents, tree)))
+    
+    for i in ts:
+        i.start()
+    for i in ts:
+        i.join()
+
+
+    
 # -----------------------------------------------------------------------------
 # You must not change this function
 def part2(log, start_id, generations):
